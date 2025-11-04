@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haunted House Adventure</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1> Haunted House Adventure 🕯️</h1>
+    <p>Dare to explore the secrets that lie within...</p>
+  </header>
+
+  <main>
+    <div id="story" class="story"></div>
+    <div id="choices" class="choices"></div>
+    <img id="storyImage" class="scene" src="" alt="Scene" />
+  </main>
+
+  <footer>
+    <p>Last updated: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    var x = document.lastModified;
+    document.getElementById('lastModified').textContent = x;
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
